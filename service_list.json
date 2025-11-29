@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Node Red",
+        "description": "automate tasks and workflows",
+        "install_script": "node_red/arm/install.sh",
+        "uninstall_script": "node_red/arm/uninstall.sh",
+        "start_command": "node-red",
+        "stop_command": "pkill node-red"
+    }
+]
